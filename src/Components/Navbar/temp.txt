@@ -1,0 +1,73 @@
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+
+function InfoSection() {
+  return (
+    <footer>
+      <Container className="mt-5">
+        {/* Follow Us Section */}
+        <Row className="text-center mb-4">
+          <Col>
+            <h4>Follow us!</h4>
+            {/* Add Social Media Icons here */}
+          </Col>
+        </Row>
+
+        <hr />
+
+        {/* Footer Links */}
+        <Row className="text-center">
+          <Col md={3}>
+            <h5>Refer and Earn</h5>
+          </Col>
+          <Col md={3}>
+            <h5>Company</h5>
+            <ul className="list-unstyled">
+              <li>About us</li>
+              <li>Careers</li>
+              <li>Newsroom</li>
+              <li>Alumni speak</li>
+              <li>Grievance redressal</li>
+              <li>Contact us</li>
+              <li>Work with us</li>
+            </ul>
+          </Col>
+          <Col md={3}>
+            <h5>Become an Instructor</h5>
+            <ul className="list-unstyled">
+              <li>Blog as guest</li>
+              <li>Discover</li>
+              <li>Free Courses</li>
+              <li>Skillup Sitemap</li>
+              <li>Resources</li>
+              <li>RSS feed</li>
+              <li>City Sitemap</li>
+            </ul>
+          </Col>
+          <Col md={3}>
+            <h5>For Businesses</h5>
+            <ul className="list-unstyled">
+              <li>Corporate training</li>
+              <li>Simplilearn Learning Hub+</li>
+              <li>Guaranteed-to-run Classes</li>
+              <li>Partners</li>
+            </ul>
+          </Col>
+        </Row>
+
+        <hr />
+
+        {/* Download App Section */}
+        <Row className="text-center mt-4">
+          <Col>
+            <h5>Learn On the Go!</h5>
+            <Button variant="primary" className="me-2">Get the Android App</Button>
+            <Button variant="outline-primary">Get the iOS App</Button>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  );
+}
+
+export default InfoSection;

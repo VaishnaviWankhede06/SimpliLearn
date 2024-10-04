@@ -1,0 +1,55 @@
+import React from "react";
+import './Cards.css'
+import { TiTick } from "react-icons/ti";
+import { IoCalendarClearOutline } from "react-icons/io5";
+import logo from './pmc.webp';
+const Cards = () => {
+    return(
+       
+       <div className="mt-20" style={{ borderRadius: '15px', boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.2)' }} >
+        <div className="">
+            <img src={logo} className="w-23 style={{ borderRadius: '15px', boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.2)' }}"/>
+        </div>
+        <div className="p-3">
+        <div className="">
+            <h5 className="">PMP Certification Training </h5>
+            <p className="font-size fw-normal mb-0"> <span><TiTick className="me-2 text-primary" /></span>35 Contact Hour</p>
+            <p className="font-size fw-normal"> <span><TiTick className="me-2 text-primary" /></span>8 industries case studies, 20 industry-based scenarios</p>
+        </div>
+          <div className="flex-row">
+            <div className="">
+                <span className="font-size fw-normal"> <IoCalendarClearOutline className="me-2" />4 weeks</span>
+                <span className=" font-size fw-normal">Cohort Starts: <b>3rd Sep 24</b></span>
+            </div>
+           <a href="">Know More</a>
+          </div>
+        </div>
+
+    </div>
+   
+    );
+}
+
+export default Cards;
+
+{
+    "id":1,
+    "image":"", 
+    "heading":"",
+    "data1":"",
+    "data2":"",
+    "duration":"",
+    "start":"",
+    "date":""
+},
+
+{
+    "id":1,
+    "image":"Advanced e", 
+    "heading":"",
+    "data1":"",
+    "data2":"",
+    "duration":"",
+    "start":"",
+    "date":""
+},

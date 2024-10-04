@@ -1,0 +1,150 @@
+[
+    {
+        "id":1,
+        "institute":"",
+        "image":"./Image/images2.jpg", 
+        "heading":"PMP Certification Training",
+        "data1":"35 Contact Hour",
+        "data2":"8 industries case studies, 20 industry-based scenarios",
+        "duration":"4 weeks",
+        "start":"Cohort Starts:",
+        "date":"3rd Sep 24"
+
+    },
+
+    {
+        "id":2,
+        "institute":"",
+        "image":"./Image/IIITB_Thumbnail_image.avif", 
+        "heading":"Advanced Executive Program in Cybersecuruty",
+        "data1":"Validate your learning with a Transcript from IIIT Bangalore",
+        "data2":"Attend Masterclasses from top faculty of IIIT Bangalore",
+        "duration":"6 months",
+        "start":"Cohort Starts:",
+        "date":"11th Sep 24"
+    },
+    {
+        "id":3,
+        "institute":"./Image/img2.avif",
+        "image":"./Image/img2.avif", 
+        "heading":"Caltech Postgraduate Program in AI and Machine Learning",
+        "data1":"Earn a program completion certificate fron Caltech CTME",
+        "data2":"Earn a Caltech CTME Circle Membership",
+        "duration":"11 months",
+        "start":"Cohort Starts:",
+        "date":"23rd Sep 24"
+    },
+
+    {
+        "id":4,
+        "institute":"",
+        "image":"./Image/images2.jpg", 
+        "heading":"Certified ScrumMaster (CSM)",
+        "data1":"2 days classroom training",
+        "data2":"16 PMI PDUs & Certification Offered",
+        "duration":"3 days",
+        "start":"Cohort Starts:",
+        "date":"5th sep 24"
+    },
+
+    {
+        "id":5,
+        "institute":"",
+        "image":"./Image/thumbnail-iit-blockchain.avif", 
+        "heading":"Professional Certificate Course in Generative AI and Machine Learning",
+        "data1":"Program complition certificate from E&ITC Academy, IIt Kanpur",
+        "data2":"",
+        "duration":"11 months",
+        "start":"Cohort Starts:",
+        "date":"4th sep 24"
+    },
+
+    
+    {
+        "id":6,
+        "institute":"",
+        "image":"./Image/abstract-pattern-cyan-blue-wallpaper-preview.jpg", 
+        "heading":"Data Analist",
+        "data1":"Simplilearn JobAssist Program",
+        "data2":"9 tools & Rigorous curriculum",
+        "duration":"11 months",
+        "start":"Cohort Starts:",
+        "date":"3rs sep 24"
+    },
+
+    {
+        "id":7,
+        "institute":"",
+        "image":"./Image/abstract-pattern-cyan-blue-wallpaper-preview.jpg", 
+        "heading":"PMP Certification Training",
+        "data1":"35 Contact Hour",
+        "data2":"8 industries case studies, 20 industry-<br/>based scenarios",
+        "duration":"4 weeks",
+        "start":"Cohort Starts:",
+        "date":"3rd Sep 24"
+    },
+
+    {
+        "id":8,
+        "institute":"",
+        "image":"./Image/thumbnail-iit-blockchain.avif", 
+        "heading":"Advanced Executive Program in Cybersecuruty",
+        "data1":"Validate your learning with a Transcript from IIIT Bangalore",
+        "data2":"Attend Masterclasses from top faculty of IIIT Bangalore",
+        "duration":"6 months",
+        "start":"Cohort Starts:",
+        "date":"11th Sep 24"
+    },
+    {
+        "id":9,
+        "institute":"",
+        "image":"./Image/images2.jpg", 
+        "heading":"Caltech Postgraduate Program in AI and Machine Learning",
+        "data1":"Earn a program completion certificate fron Caltech CTME",
+        "data2":"Earn a Caltech CTME Circle Membership",
+        "duration":"11 months",
+        "start":"Cohort Starts:",
+        "date":"23rd Sep 24"
+    },
+
+    {
+        "id":10,
+        "institute":"",
+        "image":"./Image/thumbnailimage.avif", 
+        "heading":"Certified ScrumMaster (CSM)",
+        "data1":"2 days classroom training",
+        "data2":"16 PMI PDUs & Certification Offered",
+        "duration":"3 days",
+        "start":"Cohort Starts:",
+        "date":"5th sep 24"
+    },
+
+    {
+        "id":11,
+        "institute":"",
+        "image":"./Image/thumbnail-iit-blockchain.avif", 
+        "heading":"Professional Certificate Course in Generative AI and Machine Learning",
+        "data1":"Program complition certificate from E&ITC Academy, IIt Kanpur",
+        "data2":"",
+        "duration":"11 months",
+        "start":"Cohort Starts:",
+        "date":"4th sep 24"
+    },
+
+    
+    {
+        "id":12,
+        "institute":"",
+        "image":"./Image/abstract-pattern-cyan-blue-wallpaper-preview.jpg", 
+        "heading":"Data Analist",
+        "data1":"Simplilearn JobAssist Program",
+        "data2":"9 tools & Rigorous curriculum",
+        "duration":"11 months",
+        "start":"Cohort Starts:",
+        "date":"3rs sep 24"
+    }
+
+    
+
+    
+]

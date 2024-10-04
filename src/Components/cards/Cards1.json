@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "image":"./Images/award.jpg", 
+        "heading":"PMP Certification Training",
+        "data1":"35 Contact Hour",
+        "data2":"8 industries case studies, 20 industry-<br/>based scenarios",
+        "duration":"4 weeks",
+        "start":"Cohort Starts:",
+        "date":"3rd Sep 24"
+    },
+
+    {
+        "id":2,
+        "image":"", 
+        "heading":"Advanced Executive Program in Cybersecuruty",
+        "data1":"Validate your learning with a Transcript from IIIT Bangalore",
+        "data2":"Attend Masterclasses from top faculty of IIIT Bangalore",
+        "duration":"6 months",
+        "start":"Cohort Starts:",
+        "date":"11th Sep 24"
+    },
+    {
+        "id":3,
+        "image":"", 
+        "heading":"Caltech Postgraduate Program in AI and Machine Learning",
+        "data1":"Earn a program completion certificate fron Caltech CTME",
+        "data2":"Earn a Caltech CTME Circle Membership",
+        "duration":"11 months",
+        "start":"Cohort Starts:",
+        "date":"23rd Sep 24"
+    }
+]

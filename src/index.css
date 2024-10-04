@@ -1,13 +1,307 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ NavbarComponent@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/************************************font family***********************************/
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .roboto-sans{
+    font-family:"Roboto", sans-serif !important
+  } 
+
+
+
+  /***********************************border*********************************************/
+  .border-thin {
+    border-width: 1px;
+  }
+  
+  .border-medium {
+    border-width: 3px;
+  }
+  
+  .border-thick {
+    border-width: 5px;
+  }
+
+  .custom-border-color {
+    border: 1px solid rgba(0, 123, 255, 0.5); /* Change this to your desired color */
+    opacity: 3;
+  }
+
+
+/****************************************placeholder***********************************/
+.custom-placeholder::placeholder {
+    color: #007bff !important; 
+    opacity: 1; 
+  }
+
+
+  /************************************************margin padding****************************/
+  .no-margin {
+    margin: 0 !important;
+  }
+  
+  .no-padding {
+    padding: 0 !important;
+  }
+  
+  .custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+/*******************************size***************************************************/
+.fs-8 {
+  font-size: 0.805rem; /* Approximately equivalent to an extra small size */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/**********************************************hover***************************************/
+.nav-link-hover-blue:hover {
+  color: #007bff !important; /* Blue color for hover effect */
+}
+
+.button-hover-blue:hover {
+  color: #007bff !important; /* Blue color for hover effect */
+  background-color: #ffff !important;
+  border: 1px solid rgba(0, 123, 255, 0.5) !important;
+}
+.search-icon-hover:hover {
+  background-color: #007bff !important; /* Blue background color */
+  color: white !important; /* White text color */
+}
+
+/*********************************More********************************/
+.nav-dropdown-hover:hover .dropdown-menu {
+  display: block; /* Ensure the dropdown is shown on hover */
+  color: #007bff !important;
+}
+.nav-dropdown-hover1:hover .dropdown-toggle {
+  color: #007bff; /* Darker blue text color when hovered */
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2Carousels@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.custom-carousel {
+  height: 60vh; /* Set the carousel height to 70% of the viewport height */
+}
+
+.carousel-item {
+  height: 100%; /* Make each carousel item fill the height of the carousel */
+}
+
+.carousel-img {
+  height: 100% !important; /* Set the image height to fill the carousel item */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+  width: auto;
+}
+
+.arrow-btn {
+  background-color: transparent;  
+  padding: 10px;                  
+  border-radius: 50%;             
+  transition: background-color 0.3s ease;  
+}
+
+
+.arrow-btn:hover {
+  background-color: white;        
+  color: black;                   
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@INFOSECTION@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.text-size{
+  font-size: 0.875rem;
+}
+.text-size1{
+  font-size: 0.900rem;
+}
+.text-size2{
+  font-size: 1rem;
+}
+.textcolor{
+  color:rgba(255, 255, 255, 0.5);
+}
+.textbgcolor{
+  background-color:rgba(8, 0, 0, 0.5);
+}
+.custom-link:hover {
+  background-color: black; 
+  color: white; 
+}
+.face:hover{
+  color: #1877F2;
+}
+.twiter:hover{
+  color: #1DA1F2;
+}
+.youtube:hover{
+  color: #FF0000;
+}
+.linkedin:hover{
+  color: #0A66C2;
+}
+.telegrm:hover{
+  color: #0088cc;
+}
+.insta:hover{
+  color: #E1306C;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.multi-item-carousel .carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.multi-item-carousel .carousel-slide img {
+  width: 300px; /* Adjust width as needed */
+  margin: 0 10px; /* Add spacing between images */
+}
+
+
+/***********************************Alumini*************************************************************/
+
+.alumni-section {
+  padding: 50px 0;
+  background-color: rgba(248, 251, 255,0.1);
+}
+
+.alumni-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.review-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.review-rating {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.review-image {
+  width: 100px;
+}
+
+.video-container {
+  max-width: 50%;
+}
+
+
+/********************************************trainingSolution*****************************************/
+.training-section {
+ 
+  padding: 60px 0;
+}
+
+.training-header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #272c37;
+  line-height: 1.2;
+}
+
+.training-subtext {
+  font-size: 1rem;
+  color: #51565e;
+  line-height: 1.6;
+}
+
+.demo-button {
+  
+  font-size: 1.1rem;
+  padding: 10px 30px;
+}
+
+.supporting-text {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo-card {
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo-img {
+  max-width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .training-header {
+    font-size: 1.8rem;
+  }
+
+  .training-subtext {
+    font-size: 1rem;
+  }
+
+  .logo-img {
+    max-width: 60px;
+  }
+}
+
+.logo-card {
+  width: 200px;  /* Fixed width for all divs */
+  height: 100px; /* Fixed height for all divs */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden; /* Ensures no overflow if images exceed dimensions */
+  transition: transform 0.3s;
+}
+
+.logo-card:hover {
+  transform: scale(1.1); /* Optional hover effect */
+}
+
+.logo-img {
+  width: 100%;  /* Ensures the image fills the div */
+  height: 100%; /* Ensures the image fills the div */
+  object-fit: contain; /* Keeps the aspect ratio of the image */
+}
+/********************************************treanding section********************************/
+.trending-ul:hover {
+  background-color: transparent;
+  color: inherit; /* Keep the default text color on hover */
+  text-decoration: none; /* Disable any underlines or decorations */
 }
